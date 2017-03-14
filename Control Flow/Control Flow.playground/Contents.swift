@@ -164,3 +164,84 @@ default:
 }
 
 // 控制转移语句
+let puzzleInput = "great minds think alike"
+var puzzleOutput = ""
+for character in puzzleInput.characters {
+    switch character {
+    case "a", "e", "i", "o", "u", " ":
+        continue
+    default:
+        puzzleOutput.append(character)
+    }
+}
+print(puzzleOutput)
+
+let numberSymbol: Character = "三"
+var possibleIntegerValue: Int?
+switch numberSymbol {
+case "1", "١", "一", "๑":
+    possibleIntegerValue = 1
+case "2", "٢", "二", "๒":
+    possibleIntegerValue = 2
+case "3", "٣", "三", "๓":
+    possibleIntegerValue = 3
+case "4", "٤", "四", "๔":
+    possibleIntegerValue = 4
+default:
+    break
+}
+if let integerValue = possibleIntegerValue {
+    print("The integer value of \(numberSymbol) is \(integerValue).")
+} else {
+    print("An integer value could not be found for \(numberSymbol).")
+}
+
+let integerToDescribe = 5
+var description = "The number \(integerToDescribe) is"
+switch integerToDescribe {
+case 2, 3, 5, 7, 11, 13, 17, 19:
+    description += " a prime number, and also"
+    fallthrough
+default:
+    description += " an integer"
+}
+print(description)
+
+square = 0
+diceRoll = 0
+gameLoop: while square != finalSquare {
+    diceRoll += 1
+    if diceRoll == 7 {
+        diceRoll = 1
+    }
+    switch square + diceRoll {
+    case finalSquare:
+        break gameLoop
+    case let newSquare where newSquare > finalSquare:
+        continue gameLoop
+    default:
+        square += diceRoll
+        square += board[square]
+    }
+}
+print("Game over!")
+
+func greet(person: [String: String]) {
+    guard let name = person["name"] else {
+        return
+    }
+    print("Hello \(name)")
+    guard let location = person["location"] else {
+        print("I hope the weather is nice near you.")
+        return
+    }
+    print("I hope the weather is nice in \(location).")
+}
+greet(person: ["name": "John"])
+greet(person: ["name": "Jane", "location": "Cupertion"])
+
+if #available(iOS 10, macOS 10.12, *) {
+    // 在 iOS 使用 iOS 10 的API， 在 macOS 使用 macOS 10.12 的API
+} else {
+    // 使用先前版本的 iOS 和 macOS 的API
+}
