@@ -1,6 +1,6 @@
 # SwiftTutorial
 
-放置学习Swift过程中产生的一些代码。
+放置学习Swift过程中产生的一些代码。基于Swift 3.0.1。
 
 ### 主要资料
 
