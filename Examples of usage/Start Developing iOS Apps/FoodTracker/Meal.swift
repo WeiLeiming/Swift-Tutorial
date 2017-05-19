@@ -10,12 +10,12 @@ import UIKit
 
 class Meal {
     
-    //MARK: Properties
+    // MARK: Properties
     var name: String
     var photo: UIImage?
     var rating: Int
     
-    //MARK: Initialization
+    // MARK: Initialization
     init?(name: String, photo: UIImage?, rating: Int) {
         guard !name.isEmpty else {
             return nil
