@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
 				INFOPLIST_FILE = SimpleStopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
 				INFOPLIST_FILE = SimpleStopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SimpleStopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				D5610E0B1EE69F7C00DC9908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5610E0C1EE69F7C00DC9908 /* Build configuration list for PBXNativeTarget "SimpleStopWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				D5610E0E1EE69F7C00DC9908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5610E0F1EE69F7C00DC9908 /* Build configuration list for PBXNativeTarget "SimpleStopWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				D5610E111EE69F7C00DC9908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
