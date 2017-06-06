@@ -1,6 +1,11 @@
-# SwiftTutorial
+# Swift-Tutorial
 
 放置学习Swift过程中产生的一些代码。更新至Swift 3.1。
+
+## 介绍
+
+- Language Guide — 学习官网教程语法指导留下的代码
+- Examples of usage — 使用Swift写的一些小示例
 
 ## 开始
 
