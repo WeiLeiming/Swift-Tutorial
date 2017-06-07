@@ -1,6 +1,8 @@
 # Swift-Tutorial
 
-![Platform](https://img.shields.io/badge/Platform-iOS-blue.svg?style=flat)![Support](https://img.shields.io/badge/Support-iOS%2010%2B-blue.svg?style=flat)![Language](https://img.shields.io/badge/Language-Swift%203-blue.svg?style=flat)
+![Platform](https://img.shields.io/badge/Platform-iOS-blue.svg?style=flat)
+![Support](https://img.shields.io/badge/Support-iOS%2010%2B-blue.svg?style=flat)
+![Language](https://img.shields.io/badge/Language-Swift%203-blue.svg?style=flat)
 
 放置学习Swift过程中产生的一些代码。
 
