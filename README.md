@@ -1,6 +1,8 @@
 # Swift-Tutorial
 
-放置学习Swift过程中产生的一些代码。更新至Swift 3.1。
+![Platform](https://img.shields.io/badge/Platform-iOS-blue.svg?style=flat)]![Support](https://img.shields.io/badge/Support-iOS%2010%2B-blue.svg?style=flat)]![Language](https://img.shields.io/badge/Language-Swift%203-blue.svg?style=flat)
+
+放置学习Swift过程中产生的一些代码。
 
 ## 介绍
 
@@ -9,7 +11,9 @@
 
 ## 开始
 
-在Xcode 8.0和iOS 10.0上编译运行
+- Xcode 8 or later
+- iOS 10.0 or later
+- Swift 3.1
 
 ## 主要资料
 
@@ -24,4 +28,6 @@ The Swift Programming Language		---->		[中文版](http://wiki.jikexueyuan.com/p
 [Swift Resources](https://developer.apple.com/swift/resources/)
 
 [Swift Blog](https://developer.apple.com/swift/blog/)
+
+[allenwong/30DaysofSwift](allenwong/30DaysofSwift)
 
