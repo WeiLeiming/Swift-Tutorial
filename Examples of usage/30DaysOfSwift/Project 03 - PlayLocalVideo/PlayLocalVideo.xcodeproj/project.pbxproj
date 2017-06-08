@@ -15,6 +15,8 @@
 		D5B86E081EE8DF0C00769A52 /* PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E071EE8DF0C00769A52 /* PlayLocalVideoTests.swift */; };
 		D5B86E131EE8DF0C00769A52 /* PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E121EE8DF0C00769A52 /* PlayLocalVideoUITests.swift */; };
 		D5B86E211EE8E0DF00769A52 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D5B86E201EE8E0DF00769A52 /* emoji zone.mp4 */; };
+		D5B86E231EE8E65100769A52 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E221EE8E65100769A52 /* VideoTableViewCell.swift */; };
+		D5B86E251EE8E67700769A52 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E241EE8E67700769A52 /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D5B86E121EE8DF0C00769A52 /* PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
 		D5B86E141EE8DF0C00769A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B86E201EE8E0DF00769A52 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		D5B86E221EE8E65100769A52 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		D5B86E241EE8E67700769A52 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D5B86DF91EE8DF0C00769A52 /* Assets.xcassets */,
 				D5B86DFB1EE8DF0C00769A52 /* LaunchScreen.storyboard */,
 				D5B86DFE1EE8DF0C00769A52 /* Info.plist */,
+				D5B86E221EE8E65100769A52 /* VideoTableViewCell.swift */,
+				D5B86E241EE8E67700769A52 /* VideoModel.swift */,
 			);
 			path = PlayLocalVideo;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			files = (
 				D5B86DF51EE8DF0B00769A52 /* ViewController.swift in Sources */,
 				D5B86DF31EE8DF0B00769A52 /* AppDelegate.swift in Sources */,
+				D5B86E231EE8E65100769A52 /* VideoTableViewCell.swift in Sources */,
+				D5B86E251EE8E67700769A52 /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
