@@ -14,6 +14,7 @@
 		D5B86DFD1EE8DF0C00769A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B86DFB1EE8DF0C00769A52 /* LaunchScreen.storyboard */; };
 		D5B86E081EE8DF0C00769A52 /* PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E071EE8DF0C00769A52 /* PlayLocalVideoTests.swift */; };
 		D5B86E131EE8DF0C00769A52 /* PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B86E121EE8DF0C00769A52 /* PlayLocalVideoUITests.swift */; };
+		D5B86E211EE8E0DF00769A52 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D5B86E201EE8E0DF00769A52 /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D5B86E0E1EE8DF0C00769A52 /* PlayLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLocalVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B86E121EE8DF0C00769A52 /* PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
 		D5B86E141EE8DF0C00769A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B86E201EE8E0DF00769A52 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D5B86DF11EE8DF0B00769A52 /* PlayLocalVideo */ = {
 			isa = PBXGroup;
 			children = (
+				D5B86E201EE8E0DF00769A52 /* emoji zone.mp4 */,
 				D5B86DF21EE8DF0B00769A52 /* AppDelegate.swift */,
 				D5B86DF41EE8DF0B00769A52 /* ViewController.swift */,
 				D5B86DF61EE8DF0B00769A52 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B86DFD1EE8DF0C00769A52 /* LaunchScreen.storyboard in Resources */,
+				D5B86E211EE8E0DF00769A52 /* emoji zone.mp4 in Resources */,
 				D5B86DFA1EE8DF0C00769A52 /* Assets.xcassets in Resources */,
 				D5B86DF81EE8DF0B00769A52 /* Main.storyboard in Resources */,
 			);
@@ -518,6 +522,7 @@
 				D5B86E191EE8DF0C00769A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5B86E1A1EE8DF0C00769A52 /* Build configuration list for PBXNativeTarget "PlayLocalVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				D5B86E1C1EE8DF0C00769A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5B86E1D1EE8DF0C00769A52 /* Build configuration list for PBXNativeTarget "PlayLocalVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				D5B86E1F1EE8DF0C00769A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
