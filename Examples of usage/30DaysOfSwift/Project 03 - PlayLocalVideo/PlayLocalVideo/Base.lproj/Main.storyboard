@@ -13,7 +13,7 @@
         <scene sceneID="u8W-81-gKw">
             <objects>
                 <navigationController id="bn6-9a-C0j" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="1m9-VW-7fw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="1m9-VW-7fw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -37,15 +37,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-EH-5fD" userLabel="Video Table View">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-EH-5fD" userLabel="Video Table View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="220" id="mRG-ym-KfX" userLabel="VideoCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="220" id="mRG-ym-KfX" userLabel="VideoCell" customClass="VideoTableViewCell" customModule="PlayLocalVideo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mRG-ym-KfX" id="IL5-CJ-zhk">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="219.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoScreenshot01" translatesAutoresizingMaskIntoConstraints="NO" id="lA9-cf-GEE" userLabel="Video Screenshot">
@@ -58,6 +58,9 @@
                                                         <constraint firstAttribute="width" constant="200" id="Z0y-hb-FPC"/>
                                                     </constraints>
                                                     <state key="normal" image="playBtn"/>
+                                                    <connections>
+                                                        <action selector="playVideoButtonClicked:" destination="mRG-ym-KfX" eventType="touchUpInside" id="b5c-Dg-Fu6"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Among Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynj-bj-WNW" userLabel="Video Title Label">
                                                     <rect key="frame" x="127.5" y="173" width="119" height="19.5"/>
@@ -85,8 +88,17 @@
                                                 <constraint firstItem="lA9-cf-GEE" firstAttribute="leading" secondItem="IL5-CJ-zhk" secondAttribute="leading" id="vZZ-k0-MiU"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoScreenshot" destination="lA9-cf-GEE" id="M5Z-ve-QU0"/>
+                                            <outlet property="videoSourceLabel" destination="L5j-09-uPV" id="zL6-jb-Ih4"/>
+                                            <outlet property="videoTitleLabel" destination="ynj-bj-WNW" id="TE7-kf-fK7"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZR5-DW-y3E" id="oC0-k5-o0f"/>
+                                    <outlet property="delegate" destination="ZR5-DW-y3E" id="Fwq-aU-6ZA"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

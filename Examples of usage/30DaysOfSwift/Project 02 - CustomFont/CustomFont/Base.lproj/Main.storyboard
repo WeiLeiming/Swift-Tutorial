@@ -81,7 +81,7 @@
         <scene sceneID="O8X-0z-P3d">
             <objects>
                 <navigationController id="bBZ-U6-ebS" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="LlY-cM-mjp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="LlY-cM-mjp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
