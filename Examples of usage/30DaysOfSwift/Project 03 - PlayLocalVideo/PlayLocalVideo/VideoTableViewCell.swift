@@ -48,12 +48,9 @@ class VideoTableViewCell: UITableViewCell {
     // MARK: - Action
     
     @IBAction func playVideoButtonClicked(_ sender: UIButton) {
-        self.delegate?.videoTableViewCell(self, sender: sender)
+//        self.delegate?.videoTableViewCell(self, sender: sender)
         
-        guard self.closure != nil else {
-            return
-        }
-//        self.closure!(sender)
+        self.closure?(sender)
     }
 
 }
