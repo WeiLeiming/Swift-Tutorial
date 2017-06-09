@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D3F1D51EEA4C280040C0CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1D41EEA4C280040C0CA /* AppDelegate.swift */; };
+		D5D3F1D71EEA4C280040C0CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1D61EEA4C280040C0CA /* ViewController.swift */; };
+		D5D3F1DA1EEA4C280040C0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F1D81EEA4C280040C0CA /* Main.storyboard */; };
+		D5D3F1DC1EEA4C280040C0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F1DB1EEA4C280040C0CA /* Assets.xcassets */; };
+		D5D3F1DF1EEA4C280040C0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F1DD1EEA4C280040C0CA /* LaunchScreen.storyboard */; };
+		D5D3F1EA1EEA4C280040C0CA /* SnapChatMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1E91EEA4C280040C0CA /* SnapChatMenuTests.swift */; };
+		D5D3F1F51EEA4C280040C0CA /* SnapChatMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1F41EEA4C280040C0CA /* SnapChatMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D3F1E61EEA4C280040C0CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D3F1C91EEA4C280040C0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D3F1D01EEA4C280040C0CA;
+			remoteInfo = SnapChatMenu;
+		};
+		D5D3F1F11EEA4C280040C0CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D3F1C91EEA4C280040C0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D3F1D01EEA4C280040C0CA;
+			remoteInfo = SnapChatMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5D3F1D11EEA4C280040C0CA /* SnapChatMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D3F1D41EEA4C280040C0CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D3F1D61EEA4C280040C0CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D3F1D91EEA4C280040C0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D3F1DB1EEA4C280040C0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D3F1DE1EEA4C280040C0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D3F1E01EEA4C280040C0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D3F1E51EEA4C280040C0CA /* SnapChatMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D3F1E91EEA4C280040C0CA /* SnapChatMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatMenuTests.swift; sourceTree = "<group>"; };
+		D5D3F1EB1EEA4C280040C0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D3F1F01EEA4C280040C0CA /* SnapChatMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D3F1F41EEA4C280040C0CA /* SnapChatMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatMenuUITests.swift; sourceTree = "<group>"; };
+		D5D3F1F61EEA4C280040C0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D3F1CE1EEA4C280040C0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1E21EEA4C280040C0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1ED1EEA4C280040C0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D3F1C81EEA4C280040C0CA = {
+			isa = PBXGroup;
+			children = (
+				D5D3F1D31EEA4C280040C0CA /* SnapChatMenu */,
+				D5D3F1E81EEA4C280040C0CA /* SnapChatMenuTests */,
+				D5D3F1F31EEA4C280040C0CA /* SnapChatMenuUITests */,
+				D5D3F1D21EEA4C280040C0CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D3F1D21EEA4C280040C0CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3F1D11EEA4C280040C0CA /* SnapChatMenu.app */,
+				D5D3F1E51EEA4C280040C0CA /* SnapChatMenuTests.xctest */,
+				D5D3F1F01EEA4C280040C0CA /* SnapChatMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D3F1D31EEA4C280040C0CA /* SnapChatMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3F1D41EEA4C280040C0CA /* AppDelegate.swift */,
+				D5D3F1D61EEA4C280040C0CA /* ViewController.swift */,
+				D5D3F1D81EEA4C280040C0CA /* Main.storyboard */,
+				D5D3F1DB1EEA4C280040C0CA /* Assets.xcassets */,
+				D5D3F1DD1EEA4C280040C0CA /* LaunchScreen.storyboard */,
+				D5D3F1E01EEA4C280040C0CA /* Info.plist */,
+			);
+			path = SnapChatMenu;
+			sourceTree = "<group>";
+		};
+		D5D3F1E81EEA4C280040C0CA /* SnapChatMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3F1E91EEA4C280040C0CA /* SnapChatMenuTests.swift */,
+				D5D3F1EB1EEA4C280040C0CA /* Info.plist */,
+			);
+			path = SnapChatMenuTests;
+			sourceTree = "<group>";
+		};
+		D5D3F1F31EEA4C280040C0CA /* SnapChatMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3F1F41EEA4C280040C0CA /* SnapChatMenuUITests.swift */,
+				D5D3F1F61EEA4C280040C0CA /* Info.plist */,
+			);
+			path = SnapChatMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D3F1D01EEA4C280040C0CA /* SnapChatMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D3F1F91EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenu" */;
+			buildPhases = (
+				D5D3F1CD1EEA4C280040C0CA /* Sources */,
+				D5D3F1CE1EEA4C280040C0CA /* Frameworks */,
+				D5D3F1CF1EEA4C280040C0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapChatMenu;
+			productName = SnapChatMenu;
+			productReference = D5D3F1D11EEA4C280040C0CA /* SnapChatMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D3F1E41EEA4C280040C0CA /* SnapChatMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D3F1FC1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuTests" */;
+			buildPhases = (
+				D5D3F1E11EEA4C280040C0CA /* Sources */,
+				D5D3F1E21EEA4C280040C0CA /* Frameworks */,
+				D5D3F1E31EEA4C280040C0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D3F1E71EEA4C280040C0CA /* PBXTargetDependency */,
+			);
+			name = SnapChatMenuTests;
+			productName = SnapChatMenuTests;
+			productReference = D5D3F1E51EEA4C280040C0CA /* SnapChatMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D3F1EF1EEA4C280040C0CA /* SnapChatMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D3F1FF1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuUITests" */;
+			buildPhases = (
+				D5D3F1EC1EEA4C280040C0CA /* Sources */,
+				D5D3F1ED1EEA4C280040C0CA /* Frameworks */,
+				D5D3F1EE1EEA4C280040C0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D3F1F21EEA4C280040C0CA /* PBXTargetDependency */,
+			);
+			name = SnapChatMenuUITests;
+			productName = SnapChatMenuUITests;
+			productReference = D5D3F1F01EEA4C280040C0CA /* SnapChatMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D3F1C91EEA4C280040C0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "qj-vr";
+				TargetAttributes = {
+					D5D3F1D01EEA4C280040C0CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GJ4D5RTMQ2;
+						ProvisioningStyle = Automatic;
+					};
+					D5D3F1E41EEA4C280040C0CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GJ4D5RTMQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D3F1D01EEA4C280040C0CA;
+					};
+					D5D3F1EF1EEA4C280040C0CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GJ4D5RTMQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D3F1D01EEA4C280040C0CA;
+					};
+				};
+			};
+			buildConfigurationList = D5D3F1CC1EEA4C280040C0CA /* Build configuration list for PBXProject "SnapChatMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D3F1C81EEA4C280040C0CA;
+			productRefGroup = D5D3F1D21EEA4C280040C0CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D3F1D01EEA4C280040C0CA /* SnapChatMenu */,
+				D5D3F1E41EEA4C280040C0CA /* SnapChatMenuTests */,
+				D5D3F1EF1EEA4C280040C0CA /* SnapChatMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D3F1CF1EEA4C280040C0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D3F1DF1EEA4C280040C0CA /* LaunchScreen.storyboard in Resources */,
+				D5D3F1DC1EEA4C280040C0CA /* Assets.xcassets in Resources */,
+				D5D3F1DA1EEA4C280040C0CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1E31EEA4C280040C0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1EE1EEA4C280040C0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D3F1CD1EEA4C280040C0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D3F1D71EEA4C280040C0CA /* ViewController.swift in Sources */,
+				D5D3F1D51EEA4C280040C0CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1E11EEA4C280040C0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D3F1EA1EEA4C280040C0CA /* SnapChatMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D3F1EC1EEA4C280040C0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D3F1F51EEA4C280040C0CA /* SnapChatMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D3F1E71EEA4C280040C0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D3F1D01EEA4C280040C0CA /* SnapChatMenu */;
+			targetProxy = D5D3F1E61EEA4C280040C0CA /* PBXContainerItemProxy */;
+		};
+		D5D3F1F21EEA4C280040C0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D3F1D01EEA4C280040C0CA /* SnapChatMenu */;
+			targetProxy = D5D3F1F11EEA4C280040C0CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D3F1D81EEA4C280040C0CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D3F1D91EEA4C280040C0CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D3F1DD1EEA4C280040C0CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D3F1DE1EEA4C280040C0CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D3F1F71EEA4C280040C0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5D3F1F81EEA4C280040C0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D3F1FA1EEA4C280040C0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5D3F1FB1EEA4C280040C0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5D3F1FD1EEA4C280040C0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatMenu.app/SnapChatMenu";
+			};
+			name = Debug;
+		};
+		D5D3F1FE1EEA4C280040C0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatMenu.app/SnapChatMenu";
+			};
+			name = Release;
+		};
+		D5D3F2001EEA4C280040C0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SnapChatMenu;
+			};
+			name = Debug;
+		};
+		D5D3F2011EEA4C280040C0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
+				INFOPLIST_FILE = SnapChatMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.SnapChatMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SnapChatMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D3F1CC1EEA4C280040C0CA /* Build configuration list for PBXProject "SnapChatMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D3F1F71EEA4C280040C0CA /* Debug */,
+				D5D3F1F81EEA4C280040C0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D3F1F91EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D3F1FA1EEA4C280040C0CA /* Debug */,
+				D5D3F1FB1EEA4C280040C0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5D3F1FC1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D3F1FD1EEA4C280040C0CA /* Debug */,
+				D5D3F1FE1EEA4C280040C0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5D3F1FF1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D3F2001EEA4C280040C0CA /* Debug */,
+				D5D3F2011EEA4C280040C0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D3F1C91EEA4C280040C0CA /* Project object */;
+}
