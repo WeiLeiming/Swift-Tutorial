@@ -14,6 +14,12 @@
 		D5D3F1DF1EEA4C280040C0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F1DD1EEA4C280040C0CA /* LaunchScreen.storyboard */; };
 		D5D3F1EA1EEA4C280040C0CA /* SnapChatMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1E91EEA4C280040C0CA /* SnapChatMenuTests.swift */; };
 		D5D3F1F51EEA4C280040C0CA /* SnapChatMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1F41EEA4C280040C0CA /* SnapChatMenuUITests.swift */; };
+		D5D3F2041EEA7C900040C0CA /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F2021EEA7C900040C0CA /* LeftViewController.swift */; };
+		D5D3F2051EEA7C900040C0CA /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F2031EEA7C900040C0CA /* LeftViewController.xib */; };
+		D5D3F2081EEA7CA00040C0CA /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F2061EEA7CA00040C0CA /* RightViewController.swift */; };
+		D5D3F2091EEA7CA00040C0CA /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F2071EEA7CA00040C0CA /* RightViewController.xib */; };
+		D5D3F20C1EEA7CB70040C0CA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F20A1EEA7CB70040C0CA /* CameraViewController.swift */; };
+		D5D3F20D1EEA7CB70040C0CA /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F20B1EEA7CB70040C0CA /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D5D3F1F01EEA4C280040C0CA /* SnapChatMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D3F1F41EEA4C280040C0CA /* SnapChatMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatMenuUITests.swift; sourceTree = "<group>"; };
 		D5D3F1F61EEA4C280040C0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D3F2021EEA7C900040C0CA /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		D5D3F2031EEA7C900040C0CA /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		D5D3F2061EEA7CA00040C0CA /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		D5D3F2071EEA7CA00040C0CA /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		D5D3F20A1EEA7CB70040C0CA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D5D3F20B1EEA7CB70040C0CA /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				D5D3F1DB1EEA4C280040C0CA /* Assets.xcassets */,
 				D5D3F1DD1EEA4C280040C0CA /* LaunchScreen.storyboard */,
 				D5D3F1E01EEA4C280040C0CA /* Info.plist */,
+				D5D3F2021EEA7C900040C0CA /* LeftViewController.swift */,
+				D5D3F2031EEA7C900040C0CA /* LeftViewController.xib */,
+				D5D3F2061EEA7CA00040C0CA /* RightViewController.swift */,
+				D5D3F2071EEA7CA00040C0CA /* RightViewController.xib */,
+				D5D3F20A1EEA7CB70040C0CA /* CameraViewController.swift */,
+				D5D3F20B1EEA7CB70040C0CA /* CameraViewController.xib */,
 			);
 			path = SnapChatMenu;
 			sourceTree = "<group>";
@@ -236,6 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5D3F1DF1EEA4C280040C0CA /* LaunchScreen.storyboard in Resources */,
+				D5D3F2091EEA7CA00040C0CA /* RightViewController.xib in Resources */,
+				D5D3F2051EEA7C900040C0CA /* LeftViewController.xib in Resources */,
+				D5D3F20D1EEA7CB70040C0CA /* CameraViewController.xib in Resources */,
 				D5D3F1DC1EEA4C280040C0CA /* Assets.xcassets in Resources */,
 				D5D3F1DA1EEA4C280040C0CA /* Main.storyboard in Resources */,
 			);
@@ -262,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D3F2041EEA7C900040C0CA /* LeftViewController.swift in Sources */,
+				D5D3F20C1EEA7CB70040C0CA /* CameraViewController.swift in Sources */,
+				D5D3F2081EEA7CA00040C0CA /* RightViewController.swift in Sources */,
 				D5D3F1D71EEA4C280040C0CA /* ViewController.swift in Sources */,
 				D5D3F1D51EEA4C280040C0CA /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +542,7 @@
 				D5D3F1FB1EEA4C280040C0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D3F1FC1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				D5D3F1FE1EEA4C280040C0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D3F1FF1EEA4C280040C0CA /* Build configuration list for PBXNativeTarget "SnapChatMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				D5D3F2011EEA4C280040C0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
