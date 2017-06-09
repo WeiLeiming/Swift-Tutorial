@@ -61,7 +61,6 @@ class CameraViewController: UIViewController {
         }
         
         if (error == nil && captureSession?.canAddInput(input) != nil) {
-            
             captureSession?.addInput(input)
             
             stillImageOutput = AVCaptureStillImageOutput()
@@ -111,6 +110,8 @@ class CameraViewController: UIViewController {
     
     var didTakePhoto = Bool()
     
+    // MARK: - Action
+    
     func didPressTakeAnother(){
         if didTakePhoto == true{
             tempImageView.isHidden = true
@@ -125,6 +126,8 @@ class CameraViewController: UIViewController {
         }
         
     }
+    
+    // MARK: - Touch
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         didPressTakeAnother()
