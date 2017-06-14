@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5B35FB71EF11A3C00E34A19 /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B35FB61EF11A3C00E34A19 /* VideoPreviewView.swift */; };
 		D5D3F1D51EEA4C280040C0CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1D41EEA4C280040C0CA /* AppDelegate.swift */; };
 		D5D3F1D71EEA4C280040C0CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3F1D61EEA4C280040C0CA /* ViewController.swift */; };
 		D5D3F1DA1EEA4C280040C0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D3F1D81EEA4C280040C0CA /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5B35FB61EF11A3C00E34A19 /* VideoPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
 		D5D3F1D11EEA4C280040C0CA /* SnapChatMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D3F1D41EEA4C280040C0CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D3F1D61EEA4C280040C0CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				D5D3F2071EEA7CA00040C0CA /* RightViewController.xib */,
 				D5D3F20A1EEA7CB70040C0CA /* CameraViewController.swift */,
 				D5D3F20B1EEA7CB70040C0CA /* CameraViewController.xib */,
+				D5B35FB61EF11A3C00E34A19 /* VideoPreviewView.swift */,
 			);
 			path = SnapChatMenu;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				D5D3F2041EEA7C900040C0CA /* LeftViewController.swift in Sources */,
 				D5D3F20C1EEA7CB70040C0CA /* CameraViewController.swift in Sources */,
 				D5D3F2081EEA7CA00040C0CA /* RightViewController.swift in Sources */,
+				D5B35FB71EF11A3C00E34A19 /* VideoPreviewView.swift in Sources */,
 				D5D3F1D71EEA4C280040C0CA /* ViewController.swift in Sources */,
 				D5D3F1D51EEA4C280040C0CA /* AppDelegate.swift in Sources */,
 			);
