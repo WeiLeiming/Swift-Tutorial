@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,13 +24,91 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" translatesAutoresizingMaskIntoConstraints="NO" id="dRf-xL-zP2" userLabel="Background Image View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pam-lr-h6Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0X7-ux-Scg">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="84g-9V-lvi">
+                                            <rect key="frame" x="0.0" y="87" width="375" height="493"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="gx0-J7-b8B">
+                                                <size key="itemSize" width="300" height="400"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells>
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InterestCell" id="ABQ-P7-pXL">
+                                                    <rect key="frame" x="20" y="46.5" width="300" height="400"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bodyline" translatesAutoresizingMaskIntoConstraints="NO" id="uaw-pI-qSd" userLabel="Featured Image View">
+                                                                <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                                            </imageView>
+                                                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzD-Si-aCS">
+                                                                <rect key="frame" x="0.0" y="340" width="300" height="60"/>
+                                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lgB-2l-Gv3">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="301" height="60"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love your new hair style." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hON-Qp-ojQ" userLabel="Interest Title Label">
+                                                                            <rect key="frame" x="13" y="11" width="275" height="40"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="trailing" secondItem="hON-Qp-ojQ" secondAttribute="trailing" constant="13" id="3Xj-NN-J6C"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="hON-Qp-ojQ" secondAttribute="bottom" constant="9" id="EVB-aQ-6wA"/>
+                                                                        <constraint firstItem="hON-Qp-ojQ" firstAttribute="leading" secondItem="lgB-2l-Gv3" secondAttribute="leading" constant="13" id="eT8-ah-Az3"/>
+                                                                        <constraint firstItem="hON-Qp-ojQ" firstAttribute="top" secondItem="lgB-2l-Gv3" secondAttribute="top" constant="11" id="f4O-VF-bTo"/>
+                                                                    </constraints>
+                                                                </view>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="PN5-oe-wMb"/>
+                                                                </constraints>
+                                                                <blurEffect style="extraLight"/>
+                                                            </visualEffectView>
+                                                        </subviews>
+                                                    </view>
+                                                    <constraints>
+                                                        <constraint firstItem="uaw-pI-qSd" firstAttribute="top" secondItem="ABQ-P7-pXL" secondAttribute="top" id="HZY-d5-5vL"/>
+                                                        <constraint firstItem="uaw-pI-qSd" firstAttribute="leading" secondItem="ABQ-P7-pXL" secondAttribute="leading" id="N6i-P8-CNZ"/>
+                                                        <constraint firstItem="FzD-Si-aCS" firstAttribute="leading" secondItem="ABQ-P7-pXL" secondAttribute="leading" id="hpz-nK-ciZ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="FzD-Si-aCS" secondAttribute="trailing" id="iSe-br-nYM"/>
+                                                        <constraint firstAttribute="trailing" secondItem="uaw-pI-qSd" secondAttribute="trailing" id="k3b-nq-w3Q"/>
+                                                        <constraint firstAttribute="bottom" secondItem="uaw-pI-qSd" secondAttribute="bottom" id="u0r-8y-u0q"/>
+                                                        <constraint firstAttribute="bottom" secondItem="FzD-Si-aCS" secondAttribute="bottom" id="zy5-b9-cKZ"/>
+                                                    </constraints>
+                                                </collectionViewCell>
+                                            </cells>
+                                        </collectionView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="84g-9V-lvi" firstAttribute="centerX" secondItem="0X7-ux-Scg" secondAttribute="centerX" id="1S3-IL-b8f"/>
+                                        <constraint firstItem="84g-9V-lvi" firstAttribute="centerY" secondItem="0X7-ux-Scg" secondAttribute="centerY" id="97e-rq-Iib"/>
+                                        <constraint firstItem="84g-9V-lvi" firstAttribute="top" secondItem="0X7-ux-Scg" secondAttribute="top" constant="87" id="DW9-jq-iNP"/>
+                                        <constraint firstItem="84g-9V-lvi" firstAttribute="leading" secondItem="0X7-ux-Scg" secondAttribute="leading" id="KPy-dR-eoa"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dRf-xL-zP2" secondAttribute="bottom" id="3tC-GX-Tc3"/>
                             <constraint firstAttribute="trailing" secondItem="dRf-xL-zP2" secondAttribute="trailing" id="6F4-Na-VXn"/>
                             <constraint firstItem="dRf-xL-zP2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L0z-sl-ADf"/>
+                            <constraint firstAttribute="trailing" secondItem="pam-lr-h6Q" secondAttribute="trailing" id="h8H-Kb-vli"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pam-lr-h6Q" secondAttribute="bottom" id="hQi-jx-7tN"/>
                             <constraint firstItem="dRf-xL-zP2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="idU-OR-TZH"/>
+                            <constraint firstItem="pam-lr-h6Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nO1-7m-Qfg"/>
+                            <constraint firstItem="pam-lr-h6Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="tOc-nZ-yw9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,5 +118,6 @@
     </scenes>
     <resources>
         <image name="blue" width="750" height="1334"/>
+        <image name="bodyline" width="1192" height="1190"/>
     </resources>
 </document>
