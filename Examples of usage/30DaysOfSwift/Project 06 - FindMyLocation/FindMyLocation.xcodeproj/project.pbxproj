@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
 				INFOPLIST_FILE = FindMyLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.FindMyLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJ4D5RTMQ2;
 				INFOPLIST_FILE = FindMyLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qj-vr.FindMyLocation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				D5AEBFCE1EFD05FB00E9995A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5AEBFCF1EFD05FB00E9995A /* Build configuration list for PBXNativeTarget "FindMyLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				D5AEBFD11EFD05FB00E9995A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5AEBFD21EFD05FB00E9995A /* Build configuration list for PBXNativeTarget "FindMyLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				D5AEBFD41EFD05FB00E9995A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
