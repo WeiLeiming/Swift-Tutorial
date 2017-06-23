@@ -30,4 +30,13 @@ class InterestCollectionViewCell: UICollectionViewCell {
         featuredImageView.image = self.interest.featuredImage
     }
     
+    // MARK: - Override
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.layer.cornerRadius = 5.0
+        self.clipsToBounds = true
+    }
+    
 }
