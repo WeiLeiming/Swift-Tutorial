@@ -32,6 +32,7 @@
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="84g-9V-lvi">
                                             <rect key="frame" x="0.0" y="87" width="375" height="493"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="gx0-J7-b8B">
                                                 <size key="itemSize" width="300" height="400"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -39,7 +40,7 @@
                                                 <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InterestCell" id="ABQ-P7-pXL">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InterestCell" id="ABQ-P7-pXL" customClass="InterestCollectionViewCell" customModule="CarouselEffect" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="46.5" width="300" height="400"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -52,11 +53,11 @@
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzD-Si-aCS">
                                                                 <rect key="frame" x="0.0" y="340" width="300" height="60"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lgB-2l-Gv3">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="301" height="60"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love your new hair style." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hON-Qp-ojQ" userLabel="Interest Title Label">
-                                                                            <rect key="frame" x="13" y="11" width="275" height="40"/>
+                                                                            <rect key="frame" x="13" y="11" width="274" height="40"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -85,8 +86,16 @@
                                                         <constraint firstAttribute="bottom" secondItem="uaw-pI-qSd" secondAttribute="bottom" id="u0r-8y-u0q"/>
                                                         <constraint firstAttribute="bottom" secondItem="FzD-Si-aCS" secondAttribute="bottom" id="zy5-b9-cKZ"/>
                                                     </constraints>
+                                                    <connections>
+                                                        <outlet property="featuredImageView" destination="uaw-pI-qSd" id="ug4-gf-TH7"/>
+                                                        <outlet property="interestTitleLabel" destination="hON-Qp-ojQ" id="fNP-RW-4e4"/>
+                                                    </connections>
                                                 </collectionViewCell>
                                             </cells>
+                                            <connections>
+                                                <outlet property="dataSource" destination="BYZ-38-t0r" id="Bwe-Zc-5fR"/>
+                                                <outlet property="delegate" destination="BYZ-38-t0r" id="oKl-ca-grt"/>
+                                            </connections>
                                         </collectionView>
                                     </subviews>
                                     <constraints>
