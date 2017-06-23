@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindMyLocation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,82 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="kQi-s2-tRI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pt2-H2-6Qw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fmI-xW-RUW">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6G-gw-7uN">
+                                            <rect key="frame" x="24" y="45" width="327" height="90"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67O-CJ-RjO" userLabel="Location Label">
+                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="90"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="67O-CJ-RjO" firstAttribute="leading" secondItem="T6G-gw-7uN" secondAttribute="leading" id="5cV-YU-iLc"/>
+                                                <constraint firstItem="67O-CJ-RjO" firstAttribute="top" secondItem="T6G-gw-7uN" secondAttribute="top" id="mDY-Hi-bnI"/>
+                                                <constraint firstAttribute="bottom" secondItem="67O-CJ-RjO" secondAttribute="bottom" id="nSc-jA-XfU"/>
+                                                <constraint firstAttribute="height" constant="90" id="nT3-cD-oBv"/>
+                                                <constraint firstAttribute="trailing" secondItem="67O-CJ-RjO" secondAttribute="trailing" id="ssF-r4-pVN"/>
+                                            </constraints>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szf-FD-1oB">
+                                            <rect key="frame" x="24" y="578" width="327" height="78"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="78" id="12R-uD-Qsb"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                            <state key="normal" title="Find my location" backgroundImage="Find my location"/>
+                                            <connections>
+                                                <action selector="findMyLocationButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cF9-Rz-sq3"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Szf-FD-1oB" secondAttribute="trailing" constant="24" id="3Kc-4O-nme"/>
+                                        <constraint firstAttribute="trailing" secondItem="T6G-gw-7uN" secondAttribute="trailing" constant="24" id="Bey-2O-Wvf"/>
+                                        <constraint firstItem="T6G-gw-7uN" firstAttribute="leading" secondItem="fmI-xW-RUW" secondAttribute="leading" constant="24" id="Cv9-b0-kHV"/>
+                                        <constraint firstItem="T6G-gw-7uN" firstAttribute="top" secondItem="fmI-xW-RUW" secondAttribute="top" constant="45" id="Sbq-1p-Ibu"/>
+                                        <constraint firstAttribute="bottom" secondItem="Szf-FD-1oB" secondAttribute="bottom" constant="11" id="WM5-W6-YLW"/>
+                                        <constraint firstItem="Szf-FD-1oB" firstAttribute="leading" secondItem="fmI-xW-RUW" secondAttribute="leading" constant="24" id="laA-y1-yyu"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kQi-s2-tRI" secondAttribute="bottom" id="0Jw-we-YsN"/>
+                            <constraint firstItem="Pt2-H2-6Qw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="QQm-Wk-mAd"/>
+                            <constraint firstAttribute="trailing" secondItem="kQi-s2-tRI" secondAttribute="trailing" id="TMe-iT-BA2"/>
+                            <constraint firstAttribute="trailing" secondItem="Pt2-H2-6Qw" secondAttribute="trailing" id="Tqx-Iq-aHm"/>
+                            <constraint firstItem="kQi-s2-tRI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WQV-P4-rb9"/>
+                            <constraint firstItem="Pt2-H2-6Qw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oKv-FD-c1S"/>
+                            <constraint firstItem="kQi-s2-tRI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="w4I-ZB-Kzi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pt2-H2-6Qw" secondAttribute="bottom" id="w6I-HO-POt"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="locationLabel" destination="67O-CJ-RjO" id="Paj-Ek-W22"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Find my location" width="326" height="78"/>
+        <image name="bg" width="375" height="667"/>
+    </resources>
 </document>
