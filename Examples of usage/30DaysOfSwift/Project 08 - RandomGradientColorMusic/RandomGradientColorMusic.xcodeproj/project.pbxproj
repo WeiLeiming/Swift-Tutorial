@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50D5C001F0C93E2000FA047 /* Ecstasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D50D5BFF1F0C93E2000FA047 /* Ecstasy.mp3 */; };
 		D5F4EA811F0A4720000C7C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F4EA801F0A4720000C7C09 /* AppDelegate.swift */; };
 		D5F4EA831F0A4720000C7C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F4EA821F0A4720000C7C09 /* ViewController.swift */; };
 		D5F4EA861F0A4720000C7C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F4EA841F0A4720000C7C09 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D50D5BFF1F0C93E2000FA047 /* Ecstasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ecstasy.mp3; sourceTree = "<group>"; };
 		D5F4EA7D1F0A4720000C7C09 /* RandomGradientColorMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGradientColorMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F4EA801F0A4720000C7C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F4EA821F0A4720000C7C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		D5F4EA7F1F0A4720000C7C09 /* RandomGradientColorMusic */ = {
 			isa = PBXGroup;
 			children = (
+				D50D5BFF1F0C93E2000FA047 /* Ecstasy.mp3 */,
 				D5F4EA801F0A4720000C7C09 /* AppDelegate.swift */,
 				D5F4EA821F0A4720000C7C09 /* ViewController.swift */,
 				D5F4EA841F0A4720000C7C09 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F4EA8B1F0A4720000C7C09 /* LaunchScreen.storyboard in Resources */,
+				D50D5C001F0C93E2000FA047 /* Ecstasy.mp3 in Resources */,
 				D5F4EA881F0A4720000C7C09 /* Assets.xcassets in Resources */,
 				D5F4EA861F0A4720000C7C09 /* Main.storyboard in Resources */,
 			);
@@ -516,6 +520,7 @@
 				D5F4EAA71F0A4720000C7C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5F4EAA81F0A4720000C7C09 /* Build configuration list for PBXNativeTarget "RandomGradientColorMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				D5F4EAAA1F0A4720000C7C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5F4EAAB1F0A4720000C7C09 /* Build configuration list for PBXNativeTarget "RandomGradientColorMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				D5F4EAAD1F0A4720000C7C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
