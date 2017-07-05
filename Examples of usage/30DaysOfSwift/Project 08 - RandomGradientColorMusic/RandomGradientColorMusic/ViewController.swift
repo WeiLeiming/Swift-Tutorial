@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    var audioPlayer: AVAudioPlayer!
 
     // MARK: - View Load
     
@@ -27,6 +32,19 @@ class ViewController: UIViewController {
     // MARK: - Action
 
     @IBAction func playMusicButtonDidTouch(_ sender: UIButton) {
+        let musicURL = URL(fileURLWithPath: Bundle.main.path(forResource: "Ecstasy", ofType: "mp3")!)
+        
+        let session = AVAudioSession.sharedInstance()
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+            try session.setActive(true)
+            try audioPlayer = AVAudioPlayer(contentsOf: musicURL)
+            
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch let error {
+            print(error)
+        }
     }
 
 }
