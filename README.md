@@ -31,5 +31,5 @@ The Swift Programming Language		---->		[中文版](http://wiki.jikexueyuan.com/p
 
 [Swift Blog](https://developer.apple.com/swift/blog/)
 
-[allenwong/30DaysofSwift](allenwong/30DaysofSwift)
+[allenwong/30DaysofSwift](https://github.com/allenwong/30DaysofSwift)
 
