@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     // MARK: - Properties
     
     var audioPlayer: AVAudioPlayer!
+    let gradientLayer = CAGradientLayer()
 
     // MARK: - View Load
     
