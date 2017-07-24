@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D599E57C1F25976200D1D077 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D599E57B1F25976200D1D077 /* moments.mp4 */; };
 		D5A3BEAB1F1F42540099DDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3BEAA1F1F42540099DDCE /* AppDelegate.swift */; };
 		D5A3BEAD1F1F42540099DDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A3BEAC1F1F42540099DDCE /* ViewController.swift */; };
 		D5A3BEB01F1F42540099DDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A3BEAE1F1F42540099DDCE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D599E57B1F25976200D1D077 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		D5A3BEA71F1F42530099DDCE /* VideoBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A3BEAA1F1F42540099DDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A3BEAC1F1F42540099DDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		D5A3BEA91F1F42530099DDCE /* VideoBackground */ = {
 			isa = PBXGroup;
 			children = (
+				D599E57B1F25976200D1D077 /* moments.mp4 */,
 				D5A3BEAA1F1F42540099DDCE /* AppDelegate.swift */,
 				D5A3BEAC1F1F42540099DDCE /* ViewController.swift */,
 				D5A3BEAE1F1F42540099DDCE /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A3BEB51F1F42540099DDCE /* LaunchScreen.storyboard in Resources */,
+				D599E57C1F25976200D1D077 /* moments.mp4 in Resources */,
 				D5A3BEB21F1F42540099DDCE /* Assets.xcassets in Resources */,
 				D5A3BEB01F1F42540099DDCE /* Main.storyboard in Resources */,
 			);
@@ -516,6 +520,7 @@
 				D5A3BED11F1F42540099DDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A3BED21F1F42540099DDCE /* Build configuration list for PBXNativeTarget "VideoBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				D5A3BED41F1F42540099DDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A3BED51F1F42540099DDCE /* Build configuration list for PBXNativeTarget "VideoBackgroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				D5A3BED71F1F42540099DDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
