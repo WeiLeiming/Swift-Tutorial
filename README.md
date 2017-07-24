@@ -2,7 +2,7 @@
 
 ![platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
 ![support](https://img.shields.io/badge/support-iOS%2010%2B-blue.svg?style=flat)
-![language](https://img.shields.io/badge/language-Swift%203-blue.svg?style=flat)
+![language](https://img.shields.io/badge/language-Swift-blue.svg?style=flat)
 
 放置学习Swift过程中产生的一些代码。
 
