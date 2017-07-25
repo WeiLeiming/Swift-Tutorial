@@ -14,6 +14,7 @@
 		D599E5941F25D0B200D1D077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D599E5921F25D0B200D1D077 /* LaunchScreen.storyboard */; };
 		D599E59F1F25D0B200D1D077 /* ClearTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E59E1F25D0B200D1D077 /* ClearTableViewCellTests.swift */; };
 		D599E5AA1F25D0B200D1D077 /* ClearTableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599E5A91F25D0B200D1D077 /* ClearTableViewCellUITests.swift */; };
+		D5E5AEA01F26E1780088C0F6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5AE9F1F26E1780088C0F6 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D599E5A51F25D0B200D1D077 /* ClearTableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D599E5A91F25D0B200D1D077 /* ClearTableViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTableViewCellUITests.swift; sourceTree = "<group>"; };
 		D599E5AB1F25D0B200D1D077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E5AE9F1F26E1780088C0F6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D599E5901F25D0B200D1D077 /* Assets.xcassets */,
 				D599E5921F25D0B200D1D077 /* LaunchScreen.storyboard */,
 				D599E5951F25D0B200D1D077 /* Info.plist */,
+				D5E5AE9F1F26E1780088C0F6 /* TableViewCell.swift */,
 			);
 			path = ClearTableViewCell;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E5AEA01F26E1780088C0F6 /* TableViewCell.swift in Sources */,
 				D599E58C1F25D0B200D1D077 /* ViewController.swift in Sources */,
 				D599E58A1F25D0B200D1D077 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				D599E5B01F25D0B200D1D077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D599E5B11F25D0B200D1D077 /* Build configuration list for PBXNativeTarget "ClearTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				D599E5B31F25D0B200D1D077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D599E5B41F25D0B200D1D077 /* Build configuration list for PBXNativeTarget "ClearTableViewCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				D599E5B61F25D0B200D1D077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
