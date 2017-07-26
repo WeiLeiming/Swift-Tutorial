@@ -18,10 +18,34 @@ class SignInViewController: UIViewController {
     
     // MARK: - View Load
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        centerAlignUsername.constant -= view.bounds.width
+        centerAlignPassword.constant -= view.bounds.width
+        signInButton.alpha = 0
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: { 
+            self.centerAlignUsername.constant += self.view.bounds.width
+            self.view.layoutIfNeeded()
+        }, completion: nil)
+
+        UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveEaseOut, animations: {
+            self.centerAlignPassword.constant += self.view.bounds.width
+            self.view.layoutIfNeeded()
+        }, completion: nil)
+        
+        UIView.animate(withDuration: 0.5, delay: 0.2, options: .curveEaseOut, animations: {
+            self.signInButton.alpha = 1
+        }, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     // MARK: - Memory
@@ -44,6 +68,15 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func signInButtonDidTouch(_ sender: UIButton) {
+        let bounds = signInButton.bounds
+        
+        UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: .curveLinear, animations: {
+            self.signInButton.bounds = CGRect(x: bounds.origin.x, y: bounds.origin.y, width: bounds.size.width+60, height: bounds.size.height)
+            self.signInButton.isEnabled = false
+        }) { (finished) in
+            self.signInButton.isEnabled = true
+        }
+        
     }
 
     /*
