@@ -14,6 +14,7 @@
 		D5E5AEB81F2718E40088C0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E5AEB61F2718E40088C0F6 /* LaunchScreen.storyboard */; };
 		D5E5AEC31F2718E40088C0F6 /* LoginAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5AEC21F2718E40088C0F6 /* LoginAnimationTests.swift */; };
 		D5E5AECE1F2718E40088C0F6 /* LoginAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E5AECD1F2718E40088C0F6 /* LoginAnimationUITests.swift */; };
+		D5F7BF861F28711C00597C8E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F7BF851F28711C00597C8E /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D5E5AEC91F2718E40088C0F6 /* LoginAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E5AECD1F2718E40088C0F6 /* LoginAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationUITests.swift; sourceTree = "<group>"; };
 		D5E5AECF1F2718E40088C0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F7BF851F28711C00597C8E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D5E5AEB41F2718E40088C0F6 /* Assets.xcassets */,
 				D5E5AEB61F2718E40088C0F6 /* LaunchScreen.storyboard */,
 				D5E5AEB91F2718E40088C0F6 /* Info.plist */,
+				D5F7BF851F28711C00597C8E /* SignInViewController.swift */,
 			);
 			path = LoginAnimation;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				D5E5AEB01F2718E40088C0F6 /* ViewController.swift in Sources */,
 				D5E5AEAE1F2718E40088C0F6 /* AppDelegate.swift in Sources */,
+				D5F7BF861F28711C00597C8E /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				D5E5AED41F2718E40088C0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5E5AED51F2718E40088C0F6 /* Build configuration list for PBXNativeTarget "LoginAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				D5E5AED71F2718E40088C0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5E5AED81F2718E40088C0F6 /* Build configuration list for PBXNativeTarget "LoginAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				D5E5AEDA1F2718E40088C0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
