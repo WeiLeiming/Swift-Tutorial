@@ -26,6 +26,10 @@
                             </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyM-1v-VJP">
                                 <rect key="frame" x="0.0" y="200" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ayi-sS-qQi"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="h8v-Tt-8rI"/>
+                                </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJq-T1-8d6">
                                 <rect key="frame" x="30" y="456" width="315" height="45"/>
